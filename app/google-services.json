@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "438479847060",
+    "firebase_url": "https://filmax-5e76e.firebaseio.com",
+    "project_id": "filmax-5e76e",
+    "storage_bucket": "filmax-5e76e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438479847060:android:f2695f2a820eb96f283e81",
+        "android_client_info": {
+          "package_name": "com.example.filmax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438479847060-fv3ko7trca3ojte0s9ggph92uk2d0pv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATiNSX87WfWQtFSg7_LIJ1UycS0xZtFfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438479847060-fv3ko7trca3ojte0s9ggph92uk2d0pv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlue"
+    android:orientation="vertical"
+    tools:context=".onboarding.OnboardingoneActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="86dp"
+        android:src="@drawable/nowplaying"
+        android:id="@+id/img_onboard1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="@string/now_playing"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/txt_onboard1"/>
+
+    <TextView
+        android:id="@+id/stext_onboard1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/stext_onboard1"
+        />
+
+    <Button
+        android:id="@+id/btn_next1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="32dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_blue"
+        android:text="@string/btn_next"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>
